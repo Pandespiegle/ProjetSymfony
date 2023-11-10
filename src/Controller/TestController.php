@@ -9,6 +9,6 @@ class TestController
     #[Route('/test', name: 'app_test')]
     public function number()
     {
-        dd('welcome! ');
+        dd('welcome world!');
     }
 }
